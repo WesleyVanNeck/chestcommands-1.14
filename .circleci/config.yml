@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build;
+  build:
 
     docker:
       - image: circleci/openjdk:8u212-stretch
