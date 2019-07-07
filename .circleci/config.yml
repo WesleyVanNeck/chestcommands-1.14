@@ -6,7 +6,9 @@ jobs:
 
     docker:
       - image: circleci/openjdk:8u212-stretch
-
+      
+   steps:
+   
       - run: mvn clean package
 
       - store_test_results:
