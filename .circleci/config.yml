@@ -18,4 +18,4 @@ jobs:
           path: target/surefire-reports
 
       - store_artifacts:
-          path: target/ChestCommands.jar
+          path: target/chestcommands-plugin*.jar
